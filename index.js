@@ -16,7 +16,7 @@ let pickedWord;
 
 function init() {
   pickedWords = [];
-  console.log("Hello, and welcome to Word Guess in Space!");
+  console.log("Hello, and welcome to Word Guess!");
   console.log("------------------------------------------");
   playGame();
 }
@@ -28,7 +28,7 @@ function playGame() {
     pickedWord = getWord();
   } else {
     // WIN CONDITION
-    console.log("You know a lot about your celestial neighborhood. Cheers!");
+    console.log("Great job!");
     continuePrompt();
   }
   if(pickedWord) {
